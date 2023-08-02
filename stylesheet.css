@@ -126,11 +126,12 @@ a.btn_social>div.left>img{
     border-radius: 999px;
 }
 
+
 a.btn_social:hover{
-    background-color: aquamarine;
+    background-color: rgb(0 0 0 / 8%);
 }
 a.btn_social:active{
-    background-color: rgb(138 68 68);
+    background-color: rgb(0 0 0);
 }
 
 body>main>div.c0>div.contact{
@@ -140,3 +141,4 @@ body>main>div.c0>div.contact{
     flex-direction: row;
     color: white;
 }
+
