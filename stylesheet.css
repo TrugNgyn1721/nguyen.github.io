@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    
+}
+
+/* header {
+    background-color: rgb(162, 185, 185);
+} */
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(233, 227, 227);
+    background-image: url('https://cdn.pixabay.com/photo/2023/06/01/06/03/fire-8032745_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: unset;
+}
+
+body>header {
+    height: 50%;
+    width: 100%;
+    padding: 5%;
+}
+
+body>header>div.image {
+    height: 80%;
+    padding: 5px;
+}
+
+body>header>div.image,
+body>header>div.named {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body>header>div.image>div.avatar {
+    background-image: url('https://avatars.githubusercontent.com/u/141172235?s=400&u=f62d30388a5bc38459e508ee631ee197f3fbbf13&v=4');
+    background-size: cover;
+    background-repeat: unset;
+    background-position: center;
+    height: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 9999px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+body>header>div.named {
+    height: 20%;
+}
+body>header>div.named>div.name{
+    padding: 4px;
+    border: 2px solid white;
+    border-radius: 999px;
+    color: white;
+    background-color: rgb(57, 67, 75);
+}
+
+body>main {
+    height: 50%;
+    width: 100%;
+}
+
+body>main>div.c0 {
+    height: 30%;
+    width: 100%;
+}
+
+body>main>div.c0>div.social {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+body>main>div.c0>div.social>div.social_0 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+body>main>div.c0>div.contact,
+body>main>div.c0>div.coppyright {
+    height: 20%;
+    width: 100%;
+}
+
+a.btn_social {
+    height: 100%;
+    aspect-ratio: 3/1;
+    border-radius: 999px;
+    background-color: rgb(0, 162, 255);
+    padding: 5px;
+    margin: 0px 5px 0px 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+a.btn_social>div.left,
+a.btn_social>div.right {
+    height: calc(100% - 0px);
+    border-radius: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.btn_social>div.left{
+    width: calc(30% - 5px);
+}
+a.btn_social>div.right{
+    position: relative;
+    width: calc(70% - 15px);
+}
+
+a.btn_social>div.left>img{
+    width: 75%;
+    aspect-ratio: 1/1;
+    border-radius: 999px;
+}
+
+a.btn_social:hover{
+    background-color: aquamarine;
+}
+a.btn_social:active{
+    background-color: rgb(68, 138, 114);
+}
+
+body>main>div.c0>div.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+}
