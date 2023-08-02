@@ -118,6 +118,7 @@ a.btn_social>div.left{
 a.btn_social>div.right{
     position: relative;
     width: calc(70% - 15px);
+      color: #000000;
 }
 
 a.btn_social>div.left>img{
