@@ -14,7 +14,7 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: rgb(233, 227, 227);
-    background-image: url('https://cdn.pixabay.com/photo/2023/06/01/06/03/fire-8032745_1280.jpg');
+    background-image: url('bg.gif');
     background-position: center;
     background-size: cover;
     background-repeat: unset;
